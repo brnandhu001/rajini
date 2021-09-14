@@ -1,0 +1,13 @@
+body{
+    color: black;
+    margin-top: 0px;
+    background-color: rgb(104, 103, 128);
+}
+.list{
+    margin-top: 0px;
+    background-color: rgb(110, 109, 119);
+    height: 20px;
+}
+li{
+    display: inline-block;
+}
