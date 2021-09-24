@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Login from './Log-in/Login';
-import Main from "./Home/Home"
+import Main from "./Home/Navb"
 import Signup from "./Log-in/Sign"
 import Wallets from "./Wallet_pg/Wallet"
 
