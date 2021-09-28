@@ -1,0 +1,35 @@
+
+
+.li{
+    display: inline;
+    padding-left: 50px;
+    padding-top: 10px;
+    
+    
+}
+.com-logo{
+    position: relative;
+    top: 37px;
+    left: 44px;
+    width: 56px;
+    height: 56px;
+}
+.list{
+    position: relative;
+    bottom: 0px;
+    
+   
+    left: 60px;
+    color: white;
+}
+.nav-full{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto; 
+   
+    background-image: linear-gradient(to bottom right, rgb(26, 9, 77), rgb(0, 0, 0));
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
