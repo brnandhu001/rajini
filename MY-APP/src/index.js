@@ -2,18 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Login from './Log-in/Login';
-import Main from "./Home/Navb"
+
 import Signup from "./Log-in/Sign"
 import Wallets from "./Wallet_pg/Wallet"
+import Homemain from "./Home/Home_modules/Main"
 
 
 ReactDOM.render(
   <React.StrictMode>
-  {/* <Wallets/> */}
+
+    {/* <Navbar /> */}
+    {/* <Wallets/> */}
     {/* <Login /> */}
-    <Main/>
+    {/* <Main/> */}
     {/* <Signup/> */}
-   
+    <Homemain/>
+
+
   </React.StrictMode>,
   document.getElementById('root')
 );
