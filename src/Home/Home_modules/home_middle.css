@@ -1,0 +1,326 @@
+
+/* top selling */
+.top_selling{
+   
+    
+    background-color: rgb(9, 0, 26);
+    margin-top: 0px;
+    
+    font-family: 'Roboto', sans-serif;
+    padding-top: 100PX;
+    padding-left: 150PX;
+    
+   
+   
+   
+}
+.top-selling-heading{
+    color: rgb(196, 193, 193);
+
+}
+.marana_mass{
+    border-radius: 40px;
+    width: 1050px;
+    height: 280px;
+    /* background-color: blue; */
+    position: relative;
+    /* left: 150px;  */
+    top: 10px;
+    border-radius: 40px;
+    border: 2px solid rgb(8, 185, 255);
+    background-image: url("Im/maranamasss.png");
+     background-repeat: no-repeat;
+     background-size: 100% 280px; 
+    
+    background-position: center;
+    
+    
+}
+.maranamass-text{
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+   position: relative;
+   left: 80px;
+   top: 40px;
+    
+    color: white;
+    
+}
+.mass-para{
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: -20px;
+    left: 80px;
+    color: rgb(172, 161, 161);
+
+}
+
+.singam{
+    background-color: black;
+    width: 520px;
+    height: 500px;
+    
+    /* display: inline-block; */
+    border-radius: 40px;
+    position: relative;
+    
+    
+ 
+   
+}
+.movies{
+    /* display: inline-block; */
+    
+    position: relative;
+    /* left: -25px; */
+    top: 40px;
+}
+.movie-list{
+    position: relative;
+    left: 540px;
+    bottom: 510px;
+    /* background-color: brown; */
+    width: 530px;
+    height: 405px;
+
+  
+    
+}
+.movie-block{
+    width: 244px;
+    height: 237px;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 60px;
+    
+}
+.time{
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+    
+    position: relative;
+    left: 150px;
+    top: -70px;
+    
+}
+.movie-text{
+    position: relative;
+    left: 30px;
+    bottom: 200px;
+    color: white;
+}
+.movie-block2{
+    width: 244px;
+    height: 237px;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 60px;
+    position: relative;
+    top: -70px;
+    
+}
+.singam-text{
+    position: relative;
+    left: 180px;
+    bottom: 500px;
+    color: white;
+    font-family: 'Roboto', sans-serif; ;
+    font-size:50px ;
+}
+.load-bt{
+width: 20px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000069;
+opacity: 0.5;
+height: 19px;
+margin-left: 25px;
+
+border-radius: 19px;
+position: relative;
+left: 120px;
+bottom: 250px;
+}
+.thead{
+    color: white;
+    margin-left: 20px;
+}
+.top-card{
+    height: 316px;
+    width: 200px;
+    background: transparent linear-gradient(147deg, #000016 0%, #A709DF 27%, #000016 28%, #000016 30%, #DF0974 35%, #000016 36%, #3E177A 100%) 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 6px #00000029;
+    border: 1px solid #FFFFFF24;
+    border-radius: 20px;
+    /* opacity: 0.5; */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    display: inline-block;
+    margin-left: 17px;
+    margin-top: 17px;
+}
+
+.top-sellers{
+    /* background-color: white; */
+    width: 1200px;
+    height: auto;
+    position: relative;
+    left: -30px;
+    top: -330px;
+    /* display: none; */
+
+}
+.top-im{
+    width: 186px;
+    height: 186px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF1C;
+    border-radius: 16px;
+    opacity: 0.5;
+    backdrop-filter: blur(36px);
+    -webkit-backdrop-filter: blur(36px);
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+.lo{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #BCBCBC 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: relative;
+    top: 11px;
+    left: 5.5px;
+    border: none;
+    
+}
+.top-dot{
+    border-radius: 30px;
+    background-color: white;
+    height: 2px;
+    padding: 2px;
+    margin: 2px;
+    border: none;
+}
+.top-dot-menu{
+    position: relative;
+    left: 163px;
+    top: -10px;
+}
+.top-card-title{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: 0px;
+    
+}
+.top-card-title1{
+    font-size: 10px;
+    color: rgb(189, 185, 185);
+    font-family: sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: -10px;
+    
+}
+.top-card-title-price{
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: -20px;
+    
+}
+.top-details{
+
+    margin-left: 11px;
+    margin-top: 10px;
+}
+.like{
+    position: relative;
+    left: 170px;
+    top: -55px;
+    color: white;
+    font-size: 20px;
+    
+    font-family: sans-serif;
+    font-weight: bolder;
+    
+}
+
+
+/* offical pattners */
+.offical-pattners{
+    width: 1200px;
+    height: 222px;
+   
+    position: relative;
+    top: -300px;
+    left: -20px;
+}
+
+.o-head{
+    text-align: left;
+    font: normal normal 900 27px/43px Okta Neue;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-family: sans-serif;
+}
+.o-img{
+    /* width: 30px;
+    height: 30px; */
+    position: relative;
+    top: -40px;
+    left: 320px;
+}
+.o-p-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.o-card{
+    width: 300px;
+    height: 60px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+
+}
+.o-text{
+    position: relative;
+    left: 80px;
+    top: -40px;
+  
+    text-align: left;
+font: normal normal 900 19px/19px Okta Neue;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+font-family: sans-serif;
+}
+.o-card-all{
+    
+    position: relative;
+    top: -30px;
+    left: -100px;
+}
+.o-right{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 23px;
+    left: -12px;
+}
+
