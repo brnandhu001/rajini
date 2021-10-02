@@ -1,5 +1,5 @@
-import React  from 'react';
-import {Link,BrowserRouter as Router, Route,Switch,} from "react-router-dom";
+import React from 'react';
+import { Link, BrowserRouter as Router, Route, Switch, } from "react-router-dom";
 
 
 // import  Homepg from '../../Home_modules/Home';
@@ -13,41 +13,72 @@ import com_logo from "../../Home/Home_modules/Im/com_logo.png"
 import "./navbar.css";
 
 
-export default function Navbar(){
-    return(
-        
+export default function Navbar() {
+    return (
+
         <Router>
-       <nav className="nav-full">
-       <div className="nav">
-                <div>
-                    <img className="com-logo" src={com_logo} alt="Logo" />
+            <nav className="nav-full">
+                <div className="nav">
+                    <div>
+                        <img className="com-logo" src={com_logo} alt="Logo" />
+                    </div>
+                    <div className="list">
+                        <ul>
+
+
+                            <li className='li'>COLLECTIONS</li>
+
+
+
+                            <li className='li'>MARKETPLACE</li>
+
+                            <li className='li'>HOW IT WORKS</li>
+                            <li className='li'>BLOG</li>
+                            <li className='li'>ABOUT</li>
+                            <li className='li'><i class='fas fa-wallet' id="wal-ic" ></i></li>
+                            
+                            
+                             
+
+
+
+
+
+
+
+                        </ul>
+
+                        <div className="ton">
+                            <div class="switch-button">
+                                <input class="switch-button-checkbox" type="checkbox"></input>
+                                <label class="switch-button-label"  for=""><span class="switch-button-label-span" >login</span></label>
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
                 </div>
-                <div className="list">
-                    <ul>
 
 
-                        <li className='li'>COLLECTIONS</li>
-
-
-
-                        <li className='li'>MARKETPLACE</li>
-
-                        <li className='li'>HOW IT WORKS</li>
-                        <li className='li'>BLOG</li>
-                        <li className='li'>ABOUT</li>
-                    </ul>
-                </div>
-            </div>
-       
-
-       </nav>
-
-
-        
+            </nav>
 
 
 
-        {/* <div className="list">
+
+
+
+            {/* <div className="list">
             <ul>
                 <li  className="li"><Link to="/about">ABOUT</Link></li>
                 <li className="li">
@@ -79,14 +110,14 @@ export default function Navbar(){
                 </li> 
             </ul>
         </div> */}
-       
-       
-    
-    
 
-        <Switch>
-       
-            {/* <Route exact path="/">
+
+
+
+
+            <Switch>
+
+                {/* <Route exact path="/">
             <Home/>
             </Route>
             
@@ -116,9 +147,9 @@ export default function Navbar(){
              <Wallets/>
         
             </Route>  */}
-         </Switch>
-            </Router>
-            
-        
+            </Switch>
+        </Router>
+
+
     )
 }
