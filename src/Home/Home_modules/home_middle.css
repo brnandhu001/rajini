@@ -16,6 +16,8 @@
 }
 .top-selling-heading{
     color: rgb(196, 193, 193);
+    font-weight: bolder;
+    font-family: Okta Neue;
 
 }
 .marana_mass{
@@ -27,7 +29,7 @@
     /* left: 150px;  */
     top: 10px;
     border-radius: 40px;
-    border: 2px solid rgb(8, 185, 255);
+   /* border: 2px solid rgb(8, 185, 255);*/
     background-image: url("Im/maranamasss.png");
      background-repeat: no-repeat;
      background-size: 100% 280px; 

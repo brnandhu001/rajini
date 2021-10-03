@@ -31,7 +31,7 @@ opacity: 1;
     position: relative;
     padding-right: 120px;
     position: relative;
-    border: 1px solid #FFFFFF;
+    border: 2px solid #FFFFFF;
     height: 41px;
     
   }
@@ -109,7 +109,7 @@ opacity: 1;
     position: relative;
     top: 32px;
     left: 44px;
-    width: 56px;
+    width: 100%;
     height: 56px;
 }
 .list{

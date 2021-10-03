@@ -3,13 +3,14 @@ body{
    
 }
 
-.home-heading{
+.home-heading {
     font-size: 100px;
-    font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     position: relative;
+    font-family: Okta Neue;
     top: 70px;
-    
+    padding: 50px 0px 50px 0px;
+    line-height: 1;
 }
 .home-set{
     position: relative;
@@ -37,7 +38,7 @@ body{
     background-size: auto; 
    
     background-image: linear-gradient(to bottom right, rgb(14, 0, 54), rgb(0, 0, 0));
-    height: 1200px;
+    height: 1500px;
     position: relative;
     overflow: hidden;
     /* top: 40px; */
@@ -119,7 +120,7 @@ body{
     /* background-color: rgb(48, 16, 16); */
     position: relative;
     height: auto;
-    top: 100px;
+    top: 300px;
     
     
     
@@ -142,14 +143,16 @@ body{
     position: relative;
     left: 440px;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: Okta Neue;
+    font-weight: bolder;
+    padding: 50px 0px;
 }
 .re{
     display: inline-block;
     width: 300px;
     height: 200px;
     margin-left: 30px;
-    margin-top: 40px;
+    margin-top: 20px;
     /* background-color: burlywood; */
     
 }
@@ -313,5 +316,6 @@ body{
     left: 50px;
     top: 40px;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: Okta Neue;
+    font-weight: bold;
 }
