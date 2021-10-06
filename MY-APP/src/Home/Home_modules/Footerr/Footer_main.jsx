@@ -41,10 +41,9 @@ export default function Fotter() {
             </div>
 
             <div className="foot-tong">
-                <div class="switch-buttonn">
-                    <input class="switch-buttonn-checkbox" type="checkbox"></input>
-                    <label class="switch-buttonn-label" for=""><span class="switch-buttonn-label-span" >your mail id</span></label>
-                </div>
+               <form className="fot-form">
+                   <input className="fot-input" type="text" placeholder="enter your mail id"></input><button className="fot-bt">i'm in</button>
+               </form>
 
             </div>
 
@@ -99,7 +98,7 @@ export default function Fotter() {
         <div className="cpy-fot">
         <div className="footer-copyright text-left py-3">© 2020 Copyright:
    
-    <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+    <a href="#"> diginoor.com</a>
   <span className="terms-fot">Terms privacy policy</span>
   
   </div>
