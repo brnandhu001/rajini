@@ -7,16 +7,18 @@ import Footer from './Footerr/Footer_main';
 
 
 export default function Homemain(){
-    return<><Navbar/>     {/*navbar*/}
+    return(<>
+
+    <Navbar/>     
     <Home_top/>   {/*main heading  and paragraph and button*/}
 
-    <Top_selling/>    {/*topsellings to top sellers ----pls refer home_middle.jsx file*/}
+    <Top_selling/>    
 
     <Check_out/>
     <Footer/>
     
     
-    </>
+    </>)
 
        
    

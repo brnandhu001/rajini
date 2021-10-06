@@ -29,15 +29,15 @@ export default function Home_top() {
                     uniquely own.Want your share of history
                 </p>
                 <div className="home-bt">
-                    <a href="/"><button className="bbn632-hover bn28">CLAIM NOW</button></a>
+                    <a href="/"><button className="bbn632-hover bn28" id="home-bbt">CLAIM NOW</button></a>
                 </div>
                 <div className="raj_home">
-{/* 
-<img className="raj_home" src={Raj_home} alt="" /> */}
-</div>
+                    {/* 
+                  <img className="raj_home" src={Raj_home} alt="" /> */}
+                </div>
             </div>
 
-           
+
         </div>
 
         <div className="resourse">
@@ -51,7 +51,7 @@ export default function Home_top() {
 
                 <div className="re">
                     <img className="re_immg" src={admin} alt="Logo" />
-                    <h3 className="re_menu2">Trade on the marketplace</h3>
+                    <h3 className="re_menu2"  id="re-market">Trade on the marketplace</h3>
                 </div>
 
                 <div className="re">
