@@ -6,7 +6,7 @@
     position: relative;
     /* top: -100px; */
     overflow: hidden;
-    background-image: url(../Im/Bg_ch.png);
+    background-image: url(../Im/check_bg_ty.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover ;
@@ -499,7 +499,8 @@ overflow: hidden;
         background-repeat: no-repeat;
         background-size:cover ;
         padding:50px 0px;
-        background-color: yellow;
+        background-image: url(../Im/check_bg_ty.jpg);
+      
         
         
        
