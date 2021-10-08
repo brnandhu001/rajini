@@ -400,9 +400,9 @@ body{
 
         /* display: none; */
     }
-    .home-text{
-        /* background-color: brown; */
-    }
+    /* .home-text{
+        
+    } */
 
     .home-bt{
  
@@ -688,6 +688,20 @@ body{
 
 
   @media (min-width: 481px) and (max-width: 767px) {
+
+    .home-full{
+    
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto; 
+               
+        background-image: linear-gradient(to bottom right, rgb(14, 0, 54), rgb(0, 0, 0));
+        height: auto;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+                /* top: 40px; */
+        }
   
     .home-heading {
         font-size: 50px;
@@ -711,11 +725,11 @@ body{
     }
     .para{
         position: relative;
-        width: 100%;
+        width: 400px;
         left: 5px;
       
         /* bottom: 130px; */
-        font-size: 15px;
+        font-size: 10px;
         top: 25px;
         /* background-color: yellow; */
         
@@ -743,7 +757,7 @@ body{
         color: #fff;
         cursor: pointer;
         margin: 20px;
-        height: 44px;
+        height: 34px;
         text-align:center;
         border: none;
         background-size: 300% 100%;
@@ -779,17 +793,17 @@ body{
 
 
         .raj_home{
-            width: 100%;
+            width: 150px;
            
             height: 300px;
               position: relative;
-              left: 0px;
-              top: 0px;
+              left: 310px;
+              top: -300px;
               background-image: url(./Im/raj_home.png);
               background-repeat: no-repeat;
               background-position: center;
               
-                  display: none;
+                  /* display: none; */
               }
 
 
@@ -872,9 +886,288 @@ body{
                 /* display: none; */
                 font-size: 10px;
             }
-
+            .re-part2{
+                width: 100%;
+                height: 600px;
+               
+                /* height: 300px; */
+                position: relative;
+                left: 0px;
+                top: 30px;
+                /* background-color: darkgoldenrod; */
+                
+                
+            }
+            .re-everthing{
+                width: 360px;
+                height: 300px;
+                
+                border-radius: 20px;
+                background-image: url("./Im/re_ever.png");
+                /* background-repeat: no-repeat; */
+                /* background-attachment: fixed; */
+                background-position: center;
+                margin-left: 23px;
+                
+            }
+            .re_part2_text1{
+                position: relative;
+                left: 0px;
+                top: 40px;
+                color: white;
+                font-family: Okta Neue;
+                font-weight: bold;
+            }
+            .re-beginers_guide{
+                width: auto;
+                height: auto;
+                /* background-color: yellow; */
+                
+                
+                
+                position: relative;
+                left: 23px;
+                top: 30px;
+                
             
-     
+            }
+
+            .re-beginers1{
+                /* width: 300px;
+                height: 300px; */
+                width: 200px;
+                height: 200px;
+                position: relative;
+                border-radius: 20px; 
+                /* display: inline-block; */
+                margin-top: 20px;
+                margin-left: 0px;
+                
+               
+                /* display: inline-block; */
+                
+               
+                
+               
+            
+            }
+              
+    .re-beginers-2{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        border-radius: 20px; 
+        /* display: inline-block; */
+        margin-top: 20px;
+        margin-left: 30px;
+        
+        
+    
+    }
+            .re-img{
+                width: 200px;
+                height: 200px;
+                border-radius:30px ;
+                display: block;
+            }
+    
+    
+  }
+
+
+
+
+
+  /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .home-full{
+    
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto; 
+       
+        background-image: linear-gradient(to bottom right, rgb(14, 0, 54), rgb(0, 0, 0));
+        height: 1800px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        /* top: 40px; */
+    }
+    .home-set{
+        position: relative;
+        bottom: 100px;
+        left: 10px;
+       
+        width: 600px;
+        height: 400px;
+        color: white;
+    }
+  
+
+    .home-heading {
+        font-size: 100px;
+        font-weight: bold;
+        position: relative;
+        font-family: Okta Neue;
+        top: 70px;
+        padding: 50px 0px 50px 0px;
+        line-height: 1;
+        ;
+    }
+
+    .para{
+        position: relative;
+        width: 600px;
+        left: 5px;
+      
+        /* bottom: 130px; */
+        font-size: 16px;
+        top: 25px;
+        
+    }
+
+
+    
+.raj_home{
+    width: 400px;
+    height: 500px;
+      position: relative;
+      left: 540px;
+      top: -450px;
+      background-image: url(./Im/raj_home.png);
+      background-repeat: no-repeat;
+      background-position: center;
+          /* display: none; */
+      }
+
+          /* resources */
+.resourse{
+    
+    /* height: 300px; */
+    /* background-color: rgb(48, 16, 16); */
+    position: relative;
+    height: auto;
+    top: 300px;
+    
+    
+    
+}
+.re-heading{
+    position: relative;
+    left: 10px;
+    color: white;
+    font-family: Okta Neue;
+    font-weight: bolder;
+    padding: 50px 0px;
+}
+
+.re-cards{
+    
+    width: 95%;
+    height: 200px;
+    position: relative;
+    left: 10px;
+    
+    
+    border-radius: 30px;
+    border: 5px solid white;
+    background-image: linear-gradient(to bottom right, rgb(160, 6, 114), rgb(48, 0, 87));
+
+
+}
+.re{
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin-left: 0px;
+    margin-top: 20px;
+    /* background-color: burlywood; */
+    
+}
+
+.re_immg{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    left: 50px;
+    top: 5px;
+}
+.re{
+    display: inline-block;
+    width: 200px;
+    height: 130px;
+    margin-left: 30px;
+    margin-top: 20px;
+    /* background-color: burlywood; */
+    
+}
+
+.re_menu1{
+    position: relative;
+    left: 50px;
+    top: 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.re_menu2{
+    position: relative;
+    left: 20px;
+    top: -10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.re_menu3{
+    position: relative;
+    left: 30px;
+    top: -10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.re-part2{
+    width: 1030px;
+    height: auto;
+   
+    height: 300px;
+    position: relative;
+    left: 0px;
+    top: 30px;
+    
+    
+}
+.re-everthing{
+    width: 400px;
+    height: 300px;
+    
+    border-radius: 20px;
+    background-image: url("./Im/re_ever.png");
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    background-position: center;
+    margin-left: 190px;
+}
+
+.re-beginers_guide{
+    width: auto;
+    height: auto;
+    
+    
+    
+    position: relative;
+    left: 70px;
+    top: 30px;
+    
+
+}
+    
     
   }
 

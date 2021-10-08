@@ -10,7 +10,7 @@ export default function Homemain(){
     return(<>
 
     <Navbar/>     
-    <Home_top/>   {/*main heading  and paragraph and button*/}
+    <Home_top/> 
 
     <Top_selling/>    
 
