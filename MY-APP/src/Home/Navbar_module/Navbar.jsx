@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, BrowserRouter as Router, Route, Switch, } from "react-router-dom";
 
 
@@ -13,29 +13,41 @@ import com_logo from "../../Home/Home_modules/Im/com_logo.png"
 import "./navbar.css";
 
 
+
+
 export default function Navbar() {
+
+  
     return (
 
         <Router>
             <nav className="nav-full">
                 <div className="nav">
+            
                     <div>
                         <img className="com-logo" src={com_logo} alt="Logo" />
+                        
+                        
                     </div>
+            
+                  
+                    
                     <div className="list">
-                        <ul>
+                        <ul  >
 
 
-                            <li className='li'>COLLECTIONS</li>
+                            <li className='li' >COLLECTIONS</li>
 
 
 
-                            <li className='li'>MARKETPLACE</li>
+                            <li className='li ' >MARKETPLACE</li>
 
-                            <li className='li'>HOW IT WORKS</li>
-                            <li className='li'>BLOG</li>
+                            <li className='li ' >HOW IT WORKS</li>
+                            <li className='li' >BLOG</li>
                             <li className='li'>ABOUT</li>
+                            {/* <li className='li'><i class='fas fa-wallet' id="wal-ic1" ></i></li> */}
                             <li className='li'><i class='fas fa-wallet' id="wal-ic" ></i></li>
+                            {/* <button className="mob">btn</button> */}
                             
                             
                              
@@ -115,7 +127,7 @@ export default function Navbar() {
 
 
 
-            <Switch>
+            {/* <Switch> */}
 
                 {/* <Route exact path="/">
             <Home/>
@@ -147,7 +159,7 @@ export default function Navbar() {
              <Wallets/>
         
             </Route>  */}
-            </Switch>
+            {/* </Switch> */}
         </Router>
 
 
