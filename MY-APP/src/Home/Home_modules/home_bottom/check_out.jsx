@@ -17,7 +17,7 @@ export default function Check_out() {
 
             <div className="box-heading">
 
-                <p className="box-text">check out the Diginoor community at large<span><a className="anger">fellow them here</a></span>   </p>
+                <p className="box-text">check out the Diginoor community at large<span><a className="anger" href="">fellow them here</a></span>   </p>
             </div>
 
 
