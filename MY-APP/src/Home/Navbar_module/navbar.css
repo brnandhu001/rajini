@@ -4,10 +4,10 @@
   /* background-color: rgb(95, 4, 39); */
   width: 300px;
   height: 100px;
-  position: relative;
+  position: absolute;
  
-  bottom: 45px;
-  left:800px;
+  top: 0px;
+  right: 40px;
   font: var(--unnamed-font-style-normal) normal 900 12px/19px var(--unnamed-font-family-okta-neue);
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
@@ -104,16 +104,16 @@ opacity: 1;
   
 }
 .com-logo{
-  position: relative;
-  top: 32px;
-  left: 44px;
-  width: 100%;
+  position: absolute;
+  top: 22px;
+  left: 34px;
+  width: 100px;
   height: 56px;
 }
 .list{
-  position: relative;
-  /* bottom: 10px; */
-  top: 37px;
+  position: absolute;
+  top: 30px;
+  /* top: px; */
   
  
   left: 60px;
