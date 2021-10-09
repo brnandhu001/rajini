@@ -25,8 +25,8 @@ function Wallets() {
 
 
         <div className="topic">
-          <div className="jumbotron jumbotron-fluid">
-            <div className="container">
+          <div className="">
+            <div className="containerr">
               <h1 className="display-4">connect your wallet</h1>
               <p className="explain">connect with any one of available wallet provaider or create new.</p>
             </div>

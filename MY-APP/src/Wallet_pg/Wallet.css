@@ -17,10 +17,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto; 
-    background-color: rgb(218, 201, 201);
+   
     background-image: linear-gradient(rgb(41, 38, 39), rgb(103, 91, 209));
     color: white;
     font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 0px;
+
 
 
 }
@@ -71,3 +74,4 @@
     width: 300px;
     
 }
+
