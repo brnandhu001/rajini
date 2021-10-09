@@ -38,10 +38,12 @@ body{
     background-size: auto; 
    
     background-image: linear-gradient(to bottom right, rgb(14, 0, 54), rgb(0, 0, 0));
+    /* background-image: url(./Im/Mask-Group-17.png); */
     height: 1500px;
     position: relative;
     overflow: hidden;
     /* top: 40px; */
+   
 }
 .home-bt{
  

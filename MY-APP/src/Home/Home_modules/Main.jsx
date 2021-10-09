@@ -9,7 +9,7 @@ import Footer from './Footerr/Footer_main';
 export default function Homemain(){
     return(<>
 
-    <Navbar/>     
+    {/* <Navbar/>      */}
     <Home_top/> 
 
     <Top_selling/>    
